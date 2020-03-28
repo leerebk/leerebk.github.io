@@ -1,0 +1,406 @@
+/*
+  Colors: e7e0dc-575557-6d4935-3f302d-1f1f1f
+*/
+h1 {
+    font-family: 'Noto Sans', normal;
+    font-size: 64px;
+    line-height: 87px;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    color: black;
+}
+h2 {
+    font-family: 'Noto Sans', normal;
+    letter-spacing: 0.15em;
+    font-size: 36px;
+    line-height: 49px;
+    color: black;
+
+}
+h3 {
+    font-family: 'Noto Sans', normal;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    text-align: left;
+}
+h4 {
+    font-family: 'Noto Sans', normal;
+    letter-spacing: 0.15em;
+    font-size: 20px;
+    line-height: 33px;
+    
+}
+h6 {
+    font-family: 'Noto Sans', normal;
+    font-size: 32px;
+    line-height: 49px;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+h5 {
+    font-family: 'Noto Sans', normal;
+    letter-spacing: 0.15em;
+    font-size: 14px;
+    line-height: 19px;
+}
+p {
+    font-family: 'Noto Sans', sans;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+}
+
+/*pic */
+
+.img-me {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    left: 180px;
+    top: -60px;
+}
+
+
+.upper {
+    text-transform: uppercase;
+}
+.lower {
+    font-size: 1.3rem;
+    text-transform: lowercase;
+    letter-spacing: 0px;
+}
+.center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
+    color: white;
+}
+
+.content-padding {
+    width: 100%;
+    padding: 0 10px;
+}
+
+/*
+  Navbar
+*/
+.navbar{
+    padding-top: 40px;
+    -webkit-transition: padding .5s, line-height .5s;
+    transition: padding .5s, line-height .5s;
+}
+.navbar a {
+    color: #595959 !important;
+    font-family: 'Hind', 'sans-serif';
+    text-transform: lowercase;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+}
+.navbar a:hover {
+    color: #999999 !important;
+}
+.scroll {
+    letter-spacing: 3px;
+}
+.scroll_nav {
+    background: rgb(204, 204, 204);
+}
+.scroll_nav a {
+    color: #ffffff !important;
+}
+.nav-spacer {
+    padding-left: 15px;
+}
+.home-img {
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+/*
+  Home Hero
+*/
+
+#name {
+    color: black;
+    letter-spacing: 10px;
+    font-size: 100px;
+    line-height: 87px;
+    letter-spacing: 0.15em;
+
+}
+.hello {
+    color: black;
+    letter-spacing:10px;
+    letter-spacing: 0.15em;
+    font-size: 36px;
+    line-height: 49px;
+}
+
+.see-more {
+    position: absolute;
+    left: calc(50% - 25px);
+    top: calc(100% - 50px);
+}
+.smooth-button {
+    background: none;
+    border: none;
+}
+
+
+/*
+  About
+*/
+    
+    
+
+#about {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+#about h3 {
+    text-transform: lower;
+}
+#about p {
+    font-size: 15px;
+    line-height: 1.8em;
+    color: rgb(68, 68, 68);
+}
+.about {
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top:250px;
+    padding-bottom: 50px;
+    height: 90vh;
+}
+.img-school {
+    
+    position: absolute;
+    width: 350px;
+    height: 350px;
+    left: 1176px;
+    top: 1725px
+
+}
+/*
+  experience
+*/
+#experience {
+    padding-top: 100px;
+    padding-bottom: 50px;
+    display: block;
+}
+#experience-headline h3 {
+    font-family: 'Noto Sans', normal;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    letter-spacing: 10px;
+}
+#experience p {
+    font-family: 'Noto Sans', sans;
+    font-size: 18px;
+    line-height: 25px;
+    letter-spacing: 0.15em;
+}
+#experience {
+    margin-bottom: 25px;
+    margin-top: 50px;
+}
+.experience {
+    background-color: rgba(16,16,16,1) !important;
+}
+
+/*
+  technical skills 
+*/
+
+#techskills {
+    
+    display: block;
+    height: 90vh;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    padding-top:300px;
+    padding-bottom: 50px;
+}
+
+.techskills {
+    background: rgb(248, 248, 248);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+.techskills-headline h3 {
+    font-family: 'Noto Sans', normal;
+    font-size: 36px;
+    line-height: 49px;
+    letter-spacing: 0.15em;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.img-circle1 {
+    border-radius: 50%;
+    width: 72.6px;
+    height: 76px;
+}
+.img-circle2 {
+    border-radius: 50%;
+    width: 77px;
+    height: 77px;
+}
+.img-circle3 {
+    border-radius: 50%;
+    width: 104px;
+    height: 104px;
+    
+}
+.img-circle4 {
+    border-radius: 50%;
+    width: 114px;
+    height: 118px;
+}
+/*blocks
+*/
+.block1 {
+    position: absolute;
+    width: 227.44px;
+    height: 63px;
+    left: 32px;
+    top: 2px;
+}
+.type1  {
+    position: absolute;
+    width: 247px;
+    height: 83px;
+    left: 49px;
+    top: 2px;
+}
+.type2 {
+    position: absolute;
+    width: 247px;
+    height: 83px;
+    left: 90px;
+    top: 2px;
+}
+.type3 {
+    position: absolute;
+    width: 247px;
+    height: 83px;
+    left: 40px;
+    top: 2px;
+}
+.type4 {
+    position: absolute;
+    width: 247px;
+    height: 83px;
+    left: 40px;
+    top: 2px;
+}
+.h4move {
+    position: relative; 
+    left: 32px;
+    top: 2px;
+}
+
+.h5move {
+    position: relative; 
+    left: 32px;
+    top: 0px;
+
+}
+
+
+
+/*
+  Footer
+*/
+
+#contact {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    display: block;
+}
+.social-links {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    padding-top: 20px;
+    margin: 0;
+}
+.link-list {
+    display: inline-block;
+    
+    
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-bottom: 10px;
+}
+.pad-space {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+  
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #BDCD99;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .desc {
+    padding: 15px;
+    text-align: center;
+  }
+
+
+/* Mobile */
+@media (max-width: 425px) {
+    #name {
+        font-size: 1.5rem;
+    }
+    #school {
+        font-size: 0.8rem;
+    }
+ }
+
+/* Tablets */
+@media (min-width: 426px) and (max-width: 768px) { 
+    #name {
+        font-size: 1.8rem;
+    }
+ }
+
+/* Laptop */
+@media (min-width: 769px) and (max-width: 1024px) {
+    #name {
+        font-size: 1.9rem;
+    }
+ }
+
+/* Extra Large Laptops */
+@media (min-width: 1025px) {
+    #name {
+        font-size: 2rem;
+    }
+ }
